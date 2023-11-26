@@ -34,9 +34,11 @@ function UserInputForm({ user, type, submitLabel }: { user: UserModel, type: str
       if (res.code === 403 && res.message.hasOwnProperty("email"))
         setError({ email: res.message.email[0] });
     }
-    if (res.status === "success") 
+    if (res.status === "success"){
       setSuccess(true)
       navigate("/")
+    } 
+      
   };
   return (
     <div className="lg:w-1/2">

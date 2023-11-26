@@ -24,9 +24,6 @@ function Layout({ children }: { children: any }) {
               alt=""
               className="w-10 h-10 m-auto rounded-full object-cover lg:w-28 lg:h-28"
             />
-            <h5 className="hidden mt-4 text-xl font-semibold text-slate-300 lg:block">
-              Cynthia J. Watts
-            </h5>
           </div>
 
           <ul className="space-y-2 tracking-wide mt-8">
